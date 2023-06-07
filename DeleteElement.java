@@ -15,8 +15,7 @@ public class DeleteElement{
 		int arr2[]=new int[n-1];
 		for(int i=0;i<n;i++){
 			if(arr[i]!=num){
-			arr2[k]=arr[i];
-			k++;
+			arr2[k++]=arr[i];
 			}
 		}
 
